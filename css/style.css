@@ -10,7 +10,7 @@ nav{
     flex-direction: column;
     width:46px;
     position: absolute;
-    height:75%;
+    height:430px;
     background-color: #222;
     overflow: hidden;
     transition: width 1.5s ease-in-out;
@@ -20,13 +20,13 @@ nav{
 }
 nav:hover{
     width:324px;
-    height:80%;
+    height:460px;
 }
 nav .user{
     color: white;
     text-align: center;
     padding: 35px 0;
-    font-size: 2rem;
+    font-size:1.8rem;
     height: 100px;
     width:400px;
     transform: translateX(-320px);
@@ -44,7 +44,7 @@ nav .links a{
     align-items: center;
     width: 400px;
     overflow: hidden;
-    margin-top:90px;
+    margin-top:20px;
 }
 nav .links:hover a{
     transform: translateX(10px);
